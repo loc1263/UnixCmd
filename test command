@@ -1,0 +1,3 @@
+*** Check 2 file exist 
+
+test -f "File1" && test -f "File2" || echo $?
